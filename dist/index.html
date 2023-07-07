@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>TS HomeWork 1</title>
+  </head>
+  <body>
+    <script src="./script.js"></script>
+    <header>
+      <h1>Weather sounds</h1>
+    </header>
+    <main>
+      <div class="control">
+        <div class="control__sounds">
+          <div class="soundBtn soundBtn__summer" id="summer"></div>
+          <div class="soundBtn soundBtn__rainy" id="rainy"></div>
+          <div class="soundBtn soundBtn__winter" id="winter"></div>
+        </div>
+        <div class="control__volume">
+          <input
+            id="volume"
+            type="range"
+            min="0"
+            max="1"
+            step="0.05"
+            value="0.5"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
